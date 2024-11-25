@@ -131,7 +131,7 @@ body, .clock-container, .clock_border, .clock-face{
 @media (max-width: 400px) {
     .clock-container {
         width: 90%;
-        height: 345px;
+        height: 344px;
     }
 
     .clock_border{ 
