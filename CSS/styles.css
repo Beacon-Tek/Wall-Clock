@@ -20,7 +20,7 @@ body, .clock-container, .clock_border, .clock-face{
 .clock-container {
     background-color: rgb(223, 223, 233);
     border-radius: 50px;
-    box-shadow: inset 2px 3px 10px blanchedalmond, 6px 8px 25px gray;
+    box-shadow: inset 2px 3px 10px rgb(78, 21, 64), 6px 8px 25px gray;
     width: 450px;
     height: 450px;
 }
@@ -38,10 +38,9 @@ body, .clock-container, .clock_border, .clock-face{
     width: 100%;
     height: 100%;
     position: relative;
-    color:#333;
     background-color: rgb(255, 255, 254);
     border-radius: 50%;  
-    border: 10px solid rgb(221, 214, 214);   
+    border: 10px solid rgb(206, 193, 193);   
     box-shadow: 
         inset 4px 4px 10px rgba(252, 250, 250, 0.5),
         inset -2px -6px 10px rgba(226, 173, 218, 0.5), 4px 4px 10px rgba(0, 0, 0, 0.3);
@@ -132,7 +131,7 @@ body, .clock-container, .clock_border, .clock-face{
 @media (max-width: 400px) {
     .clock-container {
         width: 90%;
-        height: 315px;
+        height: 345px;
     }
 
     .clock_border{ 
@@ -141,20 +140,20 @@ body, .clock-container, .clock_border, .clock-face{
     }
 
     .number {
-        transform: rotate(calc(var(--rotation) * 1deg)) translateX(87px)
+        transform: rotate(calc(var(--rotation) * 1deg)) translateX(80px)
         rotate(calc(var(--rotation) * -1deg));
     } 
 
     .hand {
         position: absolute;
-        right: 106px;    
-        top: 107px;
+        right: 95px;    
+        top: 95px;
     }
 
     .brand{
         position: absolute;
         bottom: 55px;
-        left: 65px;
+        left: 60px;
         font-size: 0.65rem;
     }
 
