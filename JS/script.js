@@ -1,3 +1,4 @@
+
 const hourHand = document.getElementById('hour');
 const minuteHand = document.getElementById('min');
 const secondHand = document.getElementById('sec');
